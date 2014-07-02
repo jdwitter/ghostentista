@@ -100,10 +100,11 @@ $(function () {
 	var siteName = $('#site-head h1').text().replace(/\s+/g, ' ');
 	var slogan = $('#site-head h2').text().replace(/\s+/g, ' ');
 	var header = $('<nav id="secondaryTitle"><div class="siteInfo"><h1>' + siteName + '</h1>'  
-			+ '<ul><li><a href="www.net-a-porter.com">About</a></li>'
-    			+ '<li><a href="www.net-a-porter.com">Contact Us</a></li>'
-    			+ '<li><a href="www.net-a-porter.com">Showcases</a></li></ul>'
-			+ '</div><a href="#top" id="scroll-to-top"></a></nav>');
+//			+ '<ul><li><a href="www.net-a-porter.com">About</a></li>'
+//    			+ '<li><a href="www.net-a-porter.com">Contact Us</a></li>'
+//    			+ '<li><a href="www.net-a-porter.com">Showcases</a></li></ul>'
+			+ '</div><a href="#top" id="scroll-to-top"></a>'
+			+ '</nav>');
 	
 	$('body').prepend(header);
 

@@ -119,6 +119,51 @@ nav#pagination {
   }
 }
 
+nav {
+  ul {
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    li {
+      font-family: 'league_gothicregular';
+      font-style: normal !important;
+      list-style: none outside none;
+      text-transform: uppercase;
+      a {
+        color: #FFFFFF;
+        display: inline;
+        font-weight: bold;
+        text-decoration: none !important;
+        width: auto;
+      }
+    }
+  }
+  &.primary {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.40);
+    bottom: 0;
+    height: 3em;
+    left: 0;
+    line-height: 2.7em;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    .table {
+      display: table;
+      margin: 0 auto;
+      position:relative;
+    }
+    ul.horizontal li {
+      display: inline;
+      font-size: 1.6em;
+      margin: 0 1em;
+    }
+  }
+}
+
 .post-sep {
   border: 0;
   height: 50px;
